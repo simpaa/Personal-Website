@@ -14,9 +14,11 @@ const Routes = (
 
       <Header />
 
-        <Route exact path="/" component={Portfolio} />
-        <Route path="/about" component={About} />
-        <Route path="/apps" component={Apps} />
+        <div className="site-content">
+          <Route exact path="/" component={Portfolio} />
+          <Route path="/about" component={About} />
+          <Route path="/apps" component={Apps} />
+        </div>
 
       <Footer />
 
