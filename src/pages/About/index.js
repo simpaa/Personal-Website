@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 
+import TextCard from './../../components/TextCard';
+
 class About extends Component {
   render() {
     return (
-      <h1>About page</h1>
+      <div>
+        <TextCard title="Test" text="test test"/>
+      </div>
     );
   }
 }
