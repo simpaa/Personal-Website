@@ -10,9 +10,9 @@ class Header extends Component {
 
         <nav className="main-menu">
           <ul>
-            <li><NavLink exact to="/" activeClassName="menu-item-active">Home</NavLink></li>
+            <li><NavLink exact to="/" activeClassName="menu-item-active">Portfolio</NavLink></li>
             <li><NavLink to="/about" activeClassName="menu-item-active">About</NavLink></li>
-            <li><NavLink to="/portfolio" activeClassName="menu-item-active">Portfolio</NavLink></li>
+            <li><NavLink to="/apps" activeClassName="menu-item-active">Apps</NavLink></li>
           </ul>
         </nav>
 
