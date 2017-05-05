@@ -6,6 +6,9 @@ class Header extends Component {
   render() {
     return (
       <header className="main-header">
+
+        <div className="profile-picture"></div>
+
         <h1>Simon Andersson</h1>
 
         <nav className="main-menu">
