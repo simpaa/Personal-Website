@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 
+import PortfolioList from './../../components/PortfolioList';
+import { getPortfolioData } from './../../data/Portfolio';
+var PortfolioContent = getPortfolioData();
+
 class Portfolio extends Component {
   render() {
     return (
       <div>
 
-        <h1>Portfolio component</h1>
+        <PortfolioList items={PortfolioContent} />
 
       </div>
     );
