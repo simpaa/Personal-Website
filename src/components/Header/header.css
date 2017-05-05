@@ -1,6 +1,8 @@
 .main-header {
   background-color: #FFF;
   padding-top: 10px;
+  text-align: center;
+  color: #4c4c4c;
 }
 
 .main-header h1 {
@@ -8,6 +10,11 @@
   color: #4c4c4c;
   padding: 10px;
   text-align: center;
+}
+
+.main-header p {
+  margin: 0;
+  font-size: 14px;
 }
 
 .profile-picture {
