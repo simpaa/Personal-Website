@@ -6,7 +6,7 @@ class TextCard extends Component {
     return (
       <div className="text-card">
         <h1>{this.props.title}</h1>
-        <p>{this.props.text}</p>
+        <p>{this.props.children}</p>
       </div>
     );
   }
