@@ -5,8 +5,8 @@ import { EXCERPT_LENGHT } from './../../Constants';
 
 class ListItem extends Component {
   render() {
-    const description = this.props.object.description
-    const descriptionExcerpt = description.substr(0, EXCERPT_LENGHT) + '...'
+    const description = this.props.object.description;
+    const descriptionExcerpt = description.substr(0, EXCERPT_LENGHT) + '...';
     const itemLink = `/portfolio/${this.props.id}`;
 
     return (
