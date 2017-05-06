@@ -9,7 +9,7 @@ class Footer extends Component {
       <footer className="main-footer">
 
         <p>
-          &copy; Simon Andersson 2017. See the source of this web page on <a href="https://github.com/simpaa/Personal-Website" target="_blank">GitHub</a>.
+          &copy; Simon Andersson 2017. See the source code of this website on <a href="https://github.com/simpaa/Personal-Website" target="_blank">GitHub</a>.
         </p>
 
         <ul className="social-media">
