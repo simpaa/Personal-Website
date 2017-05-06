@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+
 import { getPortfolioData } from './../../data/Portfolio';
 import './PortfolioDetail.css';
+import LinkButton from './../../components/LinkButton';
 var PortfolioContent = getPortfolioData();
 
 class PortfolioDetail extends Component {
@@ -16,13 +18,12 @@ class PortfolioDetail extends Component {
 
   render() {
     const currentPortfolioItem = this.state.currentPortfolioItem;
+    const ButtonText = `Go to ${currentPortfolioItem.type}`
     return (
       <div className="portfolio-detail">
         <h1>{currentPortfolioItem.title}</h1>
         <p>{currentPortfolioItem.description}</p>
-        <div className="item-link">
-          <a href={currentPortfolioItem.link} target="_blank">Link to {currentPortfolioItem.type}</a>
-        </div>
+        <LinkButton link={currentPortfolioItem.link} text={ButtonText} />
       </div>
     );
   }
