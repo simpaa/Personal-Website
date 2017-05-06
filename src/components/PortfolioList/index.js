@@ -7,7 +7,7 @@ class PortfolioList extends Component {
   render() {
 
     let createListItem = (object, index) => {
-      return <ListItem key={index + object} object={object} />;
+      return <ListItem key={index + object} id={index} object={object} />;
     }
 
     return (

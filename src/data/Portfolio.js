@@ -2,11 +2,15 @@ export function getPortfolioData() {
   return [
     {
       title: "test1",
-      description: "test"
+      description: "test",
+      type: "website",
+      link: "#"
     },
     {
       title: "test2",
-      description: "test test"
+      description: "test test",
+      type: "app",
+      link: "#"
     }
   ]
 }

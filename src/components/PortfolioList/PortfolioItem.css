@@ -14,6 +14,11 @@
   font-size: 28px;
 }
 
+.portfolio-item a {
+  color: #4c4c4c !important;
+  text-decoration: none !important;
+}
+
 .portfolio-text-col {
   padding: 20px;
 }

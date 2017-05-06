@@ -7,6 +7,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Apps from './pages/Apps';
 import PageNotFound from './pages/PageNotFound';
+import PortfolioDetail from './pages/PortfolioDetail';
 
 const Routes = (
   <Router>
@@ -19,6 +20,7 @@ const Routes = (
             <Route exact path="/" component={Portfolio} />
             <Route path="/about" component={About} />
             <Route path="/apps" component={Apps} />
+            <Route path="/portfolio/:id" component={PortfolioDetail} />
             <Route component={PageNotFound} />
           </Switch>
         </div>

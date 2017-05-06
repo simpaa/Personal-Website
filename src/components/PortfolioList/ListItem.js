@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { EXCERPT_LENGHT } from './../../Constants';
 
 class ListItem extends Component {
@@ -9,10 +10,12 @@ class ListItem extends Component {
 
     return (
       <li className="portfolio-item">
-        <div className="portfolio-text-col">
-          <h1>{this.props.object.title}</h1>
-          <p>{descriptionExcerpt}</p>
-        </div>
+        <Link to={`/portfolio/${this.props.id}`}>
+          <div className="portfolio-text-col">
+            <h1>{this.props.object.title}</h1>
+            <p>{descriptionExcerpt}</p>
+          </div>
+        </Link>
       </li>
     );
   }
