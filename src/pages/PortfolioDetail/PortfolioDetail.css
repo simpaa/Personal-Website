@@ -7,9 +7,12 @@
   border-radius: 4px;
   list-style-type: none;
   box-shadow: 0px 0px 8px #4c4c4c;
-  padding: 20px;
 }
 
 .portfolio-detail h1 {
   text-align: center;
+}
+
+.portfolio-detail-text-col {
+  padding: 20px;
 }

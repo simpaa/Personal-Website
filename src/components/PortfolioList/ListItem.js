@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import CoverImage from './../CoverImage';
 import { EXCERPT_LENGHT } from './../../Constants';
 
 class ListItem extends Component {
@@ -12,6 +13,7 @@ class ListItem extends Component {
     return (
       <li className="portfolio-item">
         <Link to={itemLink}>
+          <CoverImage src={object.image} />
           <div className="portfolio-text-col">
             <h1>{object.title}</h1>
             <p>{descriptionExcerpt}</p>
