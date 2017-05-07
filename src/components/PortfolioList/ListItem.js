@@ -11,7 +11,7 @@ class ListItem extends Component {
     const itemLink = `/portfolio/${this.props.id}`;
 
     return (
-      <li className="portfolio-item">
+      <article className="portfolio-item">
         <Link to={itemLink}>
           <CoverImage src={object.image} />
           <div className="portfolio-text-col">
@@ -19,7 +19,7 @@ class ListItem extends Component {
             <p>{descriptionExcerpt}</p>
           </div>
         </Link>
-      </li>
+      </article>
     );
   }
 }

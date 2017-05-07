@@ -11,9 +11,9 @@ class PortfolioList extends Component {
     }
 
     return (
-      <ul>
+      <div>
         {this.props.items.map(createListItem)}
-      </ul>
+      </div>
     );
   }
 }

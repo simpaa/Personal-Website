@@ -10,7 +10,7 @@ class Header extends Component {
         <div className="profile-picture"></div>
 
         <h1>Simon Andersson</h1>
-        <p><i>Creative iOS, Web and somtimes android developer.</i></p>
+        <p><i>Creative iOS developer.</i></p>
         <nav className="main-menu">
           <ul>
             <li><NavLink exact to="/" activeClassName="menu-item-active">Portfolio</NavLink></li>
