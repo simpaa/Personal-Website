@@ -2,6 +2,7 @@
   "name": "s-andersson-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.s-andersson.se/",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
