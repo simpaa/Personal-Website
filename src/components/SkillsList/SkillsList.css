@@ -1,0 +1,12 @@
+.skills-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 10px 10px 10px 0px;
+}
+
+.skills-list-item span {
+  padding: 6px;
+  color: #fff;
+  background-color: #4c4c4c;
+  border-radius: 2px;
+}
