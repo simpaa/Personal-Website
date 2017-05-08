@@ -22,3 +22,12 @@
 .portfolio-text-col {
   padding: 20px;
 }
+
+@media (max-width: 400px) {
+  .portfolio-item {
+    width: 90%;
+  }
+  .portfolio-text-col {
+    padding: 15px;
+  }
+}

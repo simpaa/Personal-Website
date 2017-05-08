@@ -14,7 +14,7 @@
 }
 
 .main-header p {
-  margin: 0;
+  margin: 0 auto;
   font-size: 14px;
 }
 
@@ -54,4 +54,10 @@
 .menu-item-active {
   color: orange !important;
   border-bottom: 2px solid orange;
+}
+
+@media (max-width: 400px) {
+  .main-header p {
+    max-width: 300px;
+  }
 }
