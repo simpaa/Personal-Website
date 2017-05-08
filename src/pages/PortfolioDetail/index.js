@@ -22,7 +22,7 @@ class PortfolioDetail extends Component {
     const currentPortfolioItem = this.state.currentPortfolioItem;
     const ButtonText = `Go to ${currentPortfolioItem.type}`
     return (
-      <div className="portfolio-detail">
+      <article className="portfolio-detail">
         <CoverImage src={currentPortfolioItem.image} height="300px" />
         <div className="portfolio-detail-text-col">
           <h1>{currentPortfolioItem.title}</h1>
@@ -30,7 +30,7 @@ class PortfolioDetail extends Component {
           <SkillsList title="Skills" list={currentPortfolioItem.skills} />
           <LinkButton link={currentPortfolioItem.link} text={ButtonText} />
         </div>
-      </div>
+      </article>
     );
   }
 }
