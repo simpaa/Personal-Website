@@ -10,7 +10,7 @@ export function getPortfolioData() {
     },
     {
       title: "No Candy",
-      description: "My friend come with the idea behind this app where you can keep track of how long you have avoid eating candy. I saw this idea good enough to practice on and release on the app store to get a feel for the process.",
+      description: "This is a simple app that tracks how long you have avoid eating candy. I made this app to get a feel for the process of releasing an app on the Apps Store.  My friend come with the idea behind it and I find I good enough to practice on.",
       image: "https://s-andersson.se/images/no_candy_icon.png",
       skills: ["Swift", "Xcode"],
       type: "app",
