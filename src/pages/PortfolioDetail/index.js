@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import { getPortfolioData } from './../../data/Portfolio';
 import './PortfolioDetail.css';
-import CoverImage from './../../components/CoverImage';
 import LinkButton from './../../components/LinkButton';
 import SkillsList from './../../components/SkillsList';
 var PortfolioContent = getPortfolioData();
@@ -23,7 +22,7 @@ class PortfolioDetail extends Component {
     const ButtonText = `Go to ${currentPortfolioItem.type}`
     return (
       <article className="portfolio-detail">
-        <CoverImage src={currentPortfolioItem.image} height="300px" />
+        <img className="portfolio-detail-image" src={currentPortfolioItem.image} alt={currentPortfolioItem.title} />
         <div className="portfolio-detail-text-col">
           <h1>{currentPortfolioItem.title}</h1>
           <p>{currentPortfolioItem.description}</p>
