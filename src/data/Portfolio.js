@@ -15,6 +15,14 @@ export function getPortfolioData() {
       skills: ["Swift", "Xcode"],
       type: "app",
       link: "https://itunes.apple.com/us/app/no-candy/id1171759085?mt=8"
+    },
+    {
+      title: "Current Week",
+      description: "Current Week is a simple app for iOS and watchOS to see the current week number. The watchOS app also has a complication so you can se the current week number right from the watch face. You can also find out the current week number for a specific date in the iOS app.",
+      image: "https://www.s-andersson.se/images/current_week_icon.png",
+      skills: ["Swift", "Xcode"],
+      type: "app",
+      link: "https://itunes.apple.com/se/app/nuvarande-vecka/id1231864241?mt=8"
     }
   ]
 }
